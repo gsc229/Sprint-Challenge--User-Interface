@@ -318,10 +318,27 @@ footer nav a {
 #bottom-about {
   width: 100%;
   border: hotpink 1px solid;
-  padding: 30px;
+
+  margin: 20px auto;
 }
 
 .about-div {
   border: 1px solid lime;
-  width: 50%;
+  width: 48%;
+  height: 450px;
+  border-bottom: 1px dashed black;
+}
+
+.about-div a {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  margin-top: 20px;
 }
