@@ -153,9 +153,9 @@ p {
 }
 
 .header {
+  /* border: 2px solid yellow; */
   width: 800px;
 
-  border: 2px solid yellow;
   margin: 0 auto;
 }
 
@@ -166,7 +166,7 @@ p {
   align-items: center;
 }
 .nav {
-  border: 1px solid hotpink;
+  /* border: 1px solid hotpink; */
   width: 620px;
   height: 50px;
   display: flex;
@@ -179,10 +179,16 @@ p {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  position: relative;
+}
+
+.nav a:hover {
+  color: rgb(212, 211, 211);
+  top: 3px;
 }
 
 .header-logo {
-  border: 1px solid lime;
+  /* border: 1px solid lime; */
 
   height: 50px;
 }
@@ -308,7 +314,7 @@ footer nav a {
 
 /* =========== ABOUT PAGE ================== */
 .about-page {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -316,21 +322,42 @@ footer nav a {
 
 #top-about,
 #bottom-about {
+  /* border: hotpink 1px solid; */
   width: 100%;
-  border: hotpink 1px solid;
 
   margin: 20px auto;
 }
 
+#top-about h2,
+#bottom-about h2 {
+  font-weight: bolder;
+}
+
+#top-about p,
+#bottom-about p {
+  margin: 10px 0;
+}
+
+#top-about {
+  border-bottom: 1px dashed black;
+}
+
 .about-div {
-  border: 1px solid lime;
+  /* border: 1px solid lime; */
   width: 48%;
   height: 450px;
+  margin: 20px 0;
   border-bottom: 1px dashed black;
+}
+
+.about-div h2 {
+  font-weight: bolder;
+  margin: 10px 0;
 }
 
 .about-div a {
   border: 2px solid black;
+  position: relative;
   border-radius: 10px;
   height: 50px;
   width: 200px;
@@ -341,4 +368,10 @@ footer nav a {
   color: black;
   font-weight: bolder;
   margin-top: 20px;
+}
+
+.about-div a:hover {
+  background-color: black;
+  color: white;
+  top: 3px;
 }
