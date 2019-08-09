@@ -154,7 +154,7 @@ p {
 
 .header {
   width: 800px;
-  height: 100px;
+
   border: 2px solid yellow;
   margin: 0 auto;
 }
@@ -171,8 +171,8 @@ p {
   height: 50px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 0 20px 0 20px;
+  align-items: flex-end;
+  margin: 0 30px 0 30px;
 }
 
 .nav a {
