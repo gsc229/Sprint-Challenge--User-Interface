@@ -305,3 +305,23 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+/* =========== ABOUT PAGE ================== */
+.about-page {
+  border: 2px solid yellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#top-about,
+#bottom-about {
+  width: 100%;
+  border: hotpink 1px solid;
+  padding: 30px;
+}
+
+.about-div {
+  border: 1px solid lime;
+  width: 50%;
+}
